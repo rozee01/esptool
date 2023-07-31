@@ -1,0 +1,73 @@
+.navbar {
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}
+
+nav {
+    display: block;
+}
+/* Target the file upload input element */
+
+  
+  /* Style the custom file input button */
+input[type="file"]{
+    /* Define the button styles */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .label-file-upload {
+    /* Define the button styles */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* Style the file name display */
+  .file-name {
+    /* Add spacing and styling for the file name */
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Adjust the appearance on file selection */
+  .input-file-selected[type="file"]::after {
+    /* Add an indicator for the selected file */
+    content: attr(data-file-name);
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+  }
+  .input-file-selected[type="file"]::after {
+    /* Add an indicator for the selected file */
+    content: attr(data-file-name);
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+  }
+  .input-file-selected[type="file"]::after {
+    /* Add an indicator for the selected file */
+    content: attr(data-file-name);
+    display: block;
+    margin-top: 5px;
+    color: #555;
+    font-size: 14px;
+  }
+  .centered-table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td{
+    padding: 10px;
+  }
+  
+  
+  
+  
